@@ -1,0 +1,51 @@
+/** ***** loading动画 ******** **/
+export const LOADING_OPEN = 'LOADING_OPEN'
+export const LOADING_CLOSE = 'LOADING_CLOSE'
+
+/** ***** 模态框 ******** **/
+export const MODAL_OPEN = 'MODAL_OPEN'
+export const MODAL_CLOSE = 'MODAL_CLOSE'
+export const OPEN_DIALOG = 'OPEN_DIALOG'
+
+/** ***** 视图更新操作 ******** **/
+/** cms设置 **/
+export const SITE_JURISDICTION = 'SITE_JURISDICTION'
+export const SITE_MANAGESITE = 'SITE_MANAGESITE'
+export const SITE_SITETEMPLATE = 'SITE_SITETEMPLATE'
+export const SITE_TEMPLATEPAGE = 'SITE_TEMPLATEPAGE'
+export const SITE_SITEDATA = 'SITE_SITEDATA'
+export const SITE_SITECATEGORY = 'SITE_SITECATEGORY'
+export const SITE_MENULIST = 'SITE_MENULIST'
+export const SITE_CREATEMENU = 'SITE_CREATEMENU'
+export const SITE_FILETREE = 'SITE_FILETREE'
+export const SITE_FILEPATH = 'SITE_FILEPATH'
+export const SITE_OPENTYPE = 'SITE_OPENTYPE'
+export const SITE_OPERATYPE = 'SITE_OPERATYPE'
+export const SITE_OLDPATH = 'SITE_OLDPATH'
+export const SITE_ACTION = 'SITE_ACTION'
+/** 列表数据 **/
+export const SITE_ITEMS = 'SITE_ITEMS'
+export const SITE_PAGEITEMS = 'SITE_PAGEITEMS'
+export const SITE_PAGE_FIELD_UPDATE = 'SITE_PAGE_FIELD_UPDATE'
+export const SITE_LISTDATA = 'SITE_LISTDATA'
+export const SITE_LISTS = 'SITE_LISTS'
+export const SITE_LISTSVALUE = 'SITE_LISTSVALUE'
+export const SITE_PAGEID = 'SITE_PAGEID'
+export const SITE_PAGELIST = 'SITE_PAGELIST'
+export const SITE_IFRAMESRC = 'SITE_IFRAMESRC'
+// 跟级别视图
+export const APP_VIEW = 'APP_VIEW'
+// 广告类型级别视图
+export const COMPONENT_VIEW = 'COMPONENT_VIEW'
+
+/** ***** 选择账户QUERY操作 ******** **/
+export const QUERY_GET_ADMINS = 'QUERY_GET_ADMINS'
+export const QUERY_GET_CUSTOMERS = 'QUERY_GET_CUSTOMERS'
+export const QUERY_GET_ACCOUNTS = 'QUERY_GET_ACCOUNTS'
+export const QUERY_CHECK_ADMIN = 'QUERY_CHECK_ADMIN'
+export const QUERY_CHECK_CUSTOMER = 'QUERY_CHECK_CUSTOMER'
+export const QUERY_CHECK_ACCOUNT = 'QUERY_CHECK_ACCOUNT'
+export const QUERY_GET_SERVER_DATE = 'QUERY_GET_SERVER_DATE'
+export const QUERY_SET_SEARCH_DATE = 'QUERY_SET_SEARCH_DATE'
+export const QUERY_CHANGE_STATE = 'QUERY_CHANGE_STATE'
+export const QUERY_COPY = 'QUERY_COPY'

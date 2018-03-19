@@ -1,0 +1,37 @@
+<template>
+  <div>
+    <Sitecrumbs :currentPage="this.currentPage"></Sitecrumbs>
+    <div class="select-content">
+      <Sitesites></Sitesites>
+    </div>
+  </div>
+</template>
+
+<script>
+  import Sitecrumbs from './common/Site-crumbs'
+  import Sitesites from './common/Site-sites'
+
+  export default{
+    data () {
+      return {
+        currentPage: this.$route.name
+      }
+    },
+    components: {
+      Sitecrumbs,
+      Sitesites
+    },
+    mounted () {
+      this.$store.commit('LOADING_CLOSE')
+    }
+  }
+</script>
+
+<style>
+  .select-content{
+    display: flex;
+    display: -webkit-flex;
+    margin: 10px 20px 0px 20px;
+    min-width: 1084px;
+  }
+</style>
